@@ -10,6 +10,7 @@ export const Images = () =>{
         {/* first way importing images */}
         <img src={image1} alt="image1" />
         <img src={img} alt="image1" />
+        <img src={img} alt="image1" />
 
         {/* 2nd  way of importing images*/}
         <img src="deal_ofthe_week.png" alt=""/>
@@ -18,9 +19,6 @@ export const Images = () =>{
             <source src={video1}/>
         </video>
 
-        <video controls>
-            <source src="file_example_MOV_480_700kB.mov"/>
-        </video>
         {/* 3rd way to import */}
 
       {jsondata.products.map((item,index) => <div>
